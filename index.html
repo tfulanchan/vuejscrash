@@ -9,7 +9,10 @@
 </head>
 <body>
   <div id="app">
-    <h1>Hello {{firstName}}</h1>
+    <img v-bind:src="picture" alt="">
+    <h1>{{firstName}} {{lastName}}</h1>
+    <h3>Email: {{email}}</h3>
+    <button>Get</button>
   </div>
   
   <script src="https://unpkg.com/vue@3.0.5"></script>
